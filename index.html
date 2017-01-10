@@ -7,11 +7,11 @@
 </head>
 <body>
 
-  <div class="key"></div>
+  <div id="key"></div>
 
 <script>
   addEventListener('keydown', function(e){
-    console.log(e.keyCode);
+    document.getElementById('key').innerHTML = `${e.keyCode}`;
   });
   
 
