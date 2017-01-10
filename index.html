@@ -10,9 +10,12 @@
   <div id="key"></div>
 
 <script>
-  addEventListener('keydown', function(e){
+  
+  function displayKeyCode(e){
     document.getElementById('key').innerHTML = `${e.keyCode}`;
-  });
+  }
+
+  addEventListener('keydown', displayKeyCode);
   
 
 </script>
