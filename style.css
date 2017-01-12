@@ -5,11 +5,15 @@
 }
 
 #key {
+  align-items: center;
+  background-color: goldenrod;
   border: 5px solid black;
   color: black;
+  display: flex;
   font-family: sans-serif;
   font-size: 200px;
   height: 300px;
+  justify-content: center;
   margin: 100px;
   padding: 30px;
   text-align: center;
